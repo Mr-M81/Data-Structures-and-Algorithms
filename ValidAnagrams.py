@@ -21,5 +21,11 @@ def isAnagram(s, t):
             count[char] -= 1
     return 1        
         
-    
+if __name__ == '__main__':
+    s = input()
+    t = input()
+
+    result = isAnagram(s, t)
+
+    print(result)      
     
